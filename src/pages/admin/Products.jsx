@@ -100,7 +100,7 @@ function Products(props) {
                                                 </form>
                                             }
                                             <button className='btn btn-outline-danger p-1'
-                                                onClick={() => setIsModal({ isOpen: true})}
+                                                onClick={() => setIsModal({ isOpen: true, id:item.id})}
                                             >Edit</button>
 
                                             <ModalComp isModal={isModal} setIsModal={setIsModal} />
