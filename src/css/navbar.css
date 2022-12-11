@@ -1,0 +1,14 @@
+.float-l{
+    text-align: left !important;
+}
+.navbar{
+    height: 100vh;
+    line-height: 2;
+}
+
+@media screen and (max-width:992px) {
+    .flex-column{
+        display: flex;
+        flex-direction: column !important;
+    }
+}
